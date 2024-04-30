@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS cryptos (
+    symbol VARCHAR(16) PRIMARY KEY NOT NULL,
+    mark_price FLOAT NOT NULL
+)
